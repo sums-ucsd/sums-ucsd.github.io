@@ -7,76 +7,76 @@
     </head>
 
     <body>
-        <div class = "navigation-container">
-
-            <p><a href="index.html">
-                <img src="images/main-logo.png" alt="sums-logo">
-            </a></p>
-        <ul>
-            <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">get in touch</a>
-                <div class="dropdown-content">
-                  <a href="https://www.instagram.com/sumsucsd/">instagram</a>
-                  <a href="https://discord.gg/XVVeGHXGTt">discord</a>
-                  <a href="http://eepurl.com/cJMmqf">newsletter</a>
-                  <a href = "https://www.tiktok.com/@sums.ucsd?_t=8XrH2rpnSRi&_r=1">tiktok</a>
-                </div>
-              </li>
-            <li><a href="get-involved.html">get involved</a></li>
-            <li><a href="events.html" class = "active">events</a></li>
-            <li ><a href="board.html">board</a></li>
-            <li><a href="about.html">about</a></li>
-            
-          </ul>
-        </div>
+        <header>
+            <ul>
+              <ul class="menu">
+                <a href="index.html" class = "logo">
+                  <img src="images/main-logo.png" alt="sums-logo"  width = 10% >
+              </a>
+              
+              <li class="dropdown">
+                  <a href="javascript:void(0)" class="dropbtn">get in touch</a>
+                  <div class="dropdown-content">
+                    <a href="https://www.instagram.com/sumsucsd/">instagram</a>
+                    <a href="https://discord.gg/XVVeGHXGTt">discord</a>
+                    <a href="http://eepurl.com/cJMmqf">newsletter</a>
+                    <a href = "https://www.tiktok.com/@sums.ucsd?_t=8XrH2rpnSRi&_r=1">tiktok</a>
+                  </div>
+                </li>
+              <li><a href="get-involved.html">get involved</a></li>
+              <li class = "active"><a href="events.html">events</a></li>
+              <li><a href="board.html">board</a></li>
+              <li ><a href="about.html">about</a></li>
+            </ul>
+          </header>
     
         <div class="slideshow-container">
 
             <div class="mySlides fade">
               <div class="numbertext">1 / 8</div>
-              <img src="images/board-game-night.jpg" style="width:100%">
+              <img src="images/board-game-night.jpg" style="height:450px">
               <div class="text">board game night</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">2 / 8</div>
-              <img src="images/chess.jpg" style="width:100%">
+              <img src="images/chess.jpg" style="height:450px">
               <div class="text">chess algorithms</div>
             </div>
             
             <div class="mySlides fade">
               <div class="numbertext">3/8</div>
-              <img src="images/integration-bee-crowd.jpg" style="width:100%">
+              <img src="images/integration-bee-crowd.jpg" style="height:450px">
               <div class="text">integration bee</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">4/8</div>
-                <img src="images/integration-bee.jpg" style="width:100%">
+                <img src="images/integration-bee.jpg" style="height:450px">
                 <div class="text">integration bee</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">5/8</div>
-                <img src="images/latex-workshop.jpg" style="width:100%">
+                <img src="images/latex-workshop.jpg" style="height:450px">
                 <div class="text">LaTeX workshop</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">6/8</div>
-                <img src="images/pi-day.jpg" style="width:100%">
+                <img src="images/pi-day.jpg" style="height:450px" >
                 <div class="text">pi day jeopardy</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">7/8</div>
-                <img src="images/puzzles.jpg" style="width:100%">
+                <img src="images/puzzles.jpg" style="height:450px" style = "width:50%">
                 <div class="text">puzzle lightning talk</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">8/8</div>
-                <img src="images/research-workshop.jpg" style="width:100%">
+                <img src="images/research-workshop.jpg" style="height:450px" >
                 <div class="text">research opportunities workshop</div>
             </div>
             
@@ -87,20 +87,34 @@
             <br>
             
             <script>
-                let slideIndex = 0;
-                showSlides();
+                let slideIndex = 1;
+                showSlides(slideIndex);
 
-                function showSlides() {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) {slideIndex = 1}
-                    slides[slideIndex-1].style.display = "block";
-                    setTimeout(showSlides, 4000); // Change image every 2 seconds
-                    }
+                // Next/previous controls
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
             </script>
    <div class = "events-content">
         <h2> What We Do </h2>
@@ -113,7 +127,7 @@
         We host social events such as board game nights, movie nights, study jams, and de-stress events. These help to promote connection in the mathematics community here at UCSD! Additionally, we also host our annual Pi Day Jeopardy and Integration Bees. Most events will come with snacks and food. 
 
         <h3> Lightning Talks </h3>
-        Any UCSD affiliate is free to give a lightning talk on any math-related topic that they find interesting. We will take care of the publicity and securing a room, you just need to show up! If you would like to give a talk please fill out the form <a href = ""> here </a>. 
+        Any UCSD affiliate is free to give a lightning talk on any math-related topic that they find interesting. We will take care of the publicity and securing a room, you just need to show up! If you would like to give a talk please fill out the form <a href = "https://docs.google.com/forms/d/1zM4OpeyKMClutnLVL3X9uJoxLxIkLf_o0szbLuSXdOk/viewform?edit_requested=true"> here </a>. 
     </div> 
     </body>
 
