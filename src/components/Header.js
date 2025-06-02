@@ -17,10 +17,10 @@ function Header () {
                     <a href = "https://www.tiktok.com/@sums.ucsd?_t=8XrH2rpnSRi&_r=1">tiktok</a>
                   </div>
                 </li>
-              <li><a href="get-involved">get involved</a></li>
-              <li ><a href="events">events</a></li>
-              <li><a href="board">board</a></li>
-              <li ><a href="about">about</a></li>
+              <li><a href="/get-involved">get involved</a></li>
+              <li ><a href="/events">events</a></li>
+              <li><a href="/board">board</a></li>
+              <li ><a href="/about">about</a></li>
             </ul>
             )
 }
