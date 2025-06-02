@@ -1,5 +1,3 @@
-
-
 function GetInvolved() {
   return (
     
