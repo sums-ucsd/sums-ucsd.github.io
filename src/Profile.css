@@ -1,0 +1,36 @@
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  padding: 40px 60px;
+}
+
+.profile-image img.profile {
+  width: 100%;
+  height: auto;;
+  border-radius: 0;
+}
+
+.profile-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.profile-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .get-involved-image img.profile {
+    max-width: 100%;
+  }
+}
