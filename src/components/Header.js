@@ -11,7 +11,7 @@ function Header () {
               <li class="dropdown">
                   <a href="javascript:void(0)" class="dropbtn">get in touch</a>
                   <div class="dropdown-content">
-                    <a href="https://www.instagram.com/sumsucsd/">instagram</a>
+                    <a href="https://www.instagram.com/sumsatucsd/">instagram</a>
                     <a href="https://discord.gg/XVVeGHXGTt">discord</a>
                     <a href="http://eepurl.com/cJMmqf">newsletter</a>
                     <a href = "https://www.tiktok.com/@sums.ucsd?_t=8XrH2rpnSRi&_r=1">tiktok</a>
