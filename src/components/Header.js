@@ -1,28 +1,31 @@
+import React from "react";
+import main_logo from "../assets/images/main_logo.png";
 
+function Header() {
+  return (
+    <ul className="menu" style={{ marginTop: "10px" }}>
+      <a href="/" className="logo">
+        <img src={main_logo} alt="SUMS logo" width="10%" />
+      </a>
 
-function Header () {
+      <li className="dropdown">
+        <span className="dropbtn">get in touch</span>
+        <div className="dropdown-content">
+          <a href="https://www.instagram.com/sumsatucsd/">instagram</a>
+          <a href="https://discord.gg/XVVeGHXGTt">discord</a>
+          <a href="http://eepurl.com/cJMmqf">newsletter</a>
+          <a href="https://www.tiktok.com/@sums.at.ucsd">
+            tiktok
+          </a>
+        </div>
+      </li>
 
-    return (
-              <ul class="menu" style={{ marginTop: '10px'}}>
-                <a href="/" class = "logo">
-                  <img src="main-logo.png" alt="sums-logo"  width = "10%" />
-              </a>
-              
-              <li class="dropdown">
-                  <a href="javascript:void(0)" class="dropbtn">get in touch</a>
-                  <div class="dropdown-content">
-                    <a href="https://www.instagram.com/sumsatucsd/">instagram</a>
-                    <a href="https://discord.gg/XVVeGHXGTt">discord</a>
-                    <a href="http://eepurl.com/cJMmqf">newsletter</a>
-                    <a href = "https://www.tiktok.com/@sums.ucsd?_t=8XrH2rpnSRi&_r=1">tiktok</a>
-                  </div>
-                </li>
-              <li><a href="/get-involved">get involved</a></li>
-              <li ><a href="/events">events</a></li>
-              <li><a href="/board">board</a></li>
-              <li ><a href="/about">about</a></li>
-            </ul>
-            )
+      <li><a href="/get-involved">get involved</a></li>
+      <li><a href="/events">events</a></li>
+      <li><a href="/board">board</a></li>
+      <li><a href="/about">about</a></li>
+    </ul>
+  );
 }
 
 export default Header;
