@@ -1,13 +1,13 @@
-import emilyImg from "../assets/images/EmilyHawksworth.jpeg";
-import harryImg from "../assets/images/HarryLonsdale.png";
-import kaylaImg from "../assets/images/KaylaTorresRodriguez.jpeg";
-import lalehImg from "../assets/images/LalehBoursalian.jpeg";
-import mattImg from "../assets/images/MattTokunaga.jpg";
-import mohitImg from "../assets/images/MohitDutta.jpg";
-import naomiImg from "../assets/images/NaomiMetzler.jpg";
-import ryanImg from "../assets/images/RyanBatubara.jpeg";
-import sahithImg from "../assets/images/SahithEdula.png";
-import thomasImg from "../assets/images/ThomasMadden.jpg";
+import emilyImg from "../assets/images/profiles/EmilyHawksworth.jpeg";
+import harryImg from "../assets/images/profiles/HarryLonsdale.png";
+import kaylaImg from "../assets/images/profiles/KaylaTorresRodriguez.jpeg";
+import lalehImg from "../assets/images/profiles/LalehBoursalian.jpeg";
+import mattImg from "../assets/images/profiles/MattTokunaga.jpg";
+import mohitImg from "../assets/images/profiles/MohitDutta.jpg";
+import naomiImg from "../assets/images/profiles/NaomiMetzler.jpg";
+import ryanImg from "../assets/images/profiles/RyanBatubara.jpeg";
+import sahithImg from "../assets/images/profiles/SahithEdula.png";
+import thomasImg from "../assets/images/profiles/ThomasMadden.jpg";
 
 export const profiles = {
     'harry-lonsdale': {
@@ -108,6 +108,18 @@ export const profiles = {
         favoriteFields: 'Functional analysis',
         favoriteClasses: 'Math 140B, Math 100C'
     },
+    'naomi-metzler': {
+        name: 'Naomi Metzler',
+        title: 'Tech Chair',
+        img: naomiImg,
+        year: '3rd',
+        college: 'Eighth',
+        major: 'Math-CS',
+        why: 'I wanted to make friends with other math people!',
+        hobbies: 'Running, art/sewing, thrifting, and rollerblading',
+        favoriteFields: 'Graph theory',
+        favoriteClasses: 'Math 100B, Math 154',
+    },
     'laleh-boursalian': {
         name: 'Laleh Boursalian',
         title: 'Media Chair',
@@ -120,18 +132,6 @@ export const profiles = {
         hobbies: 'cooking, reading, playing The Sims 4 and Minecraft',
         favoriteFields: 'Calculus',
         favoriteClasses: 'Math 142A, Math 170A'
-    },
-    'naomi-metzler': {
-        name: 'Naomi Metzler',
-        title: 'Tech Chair',
-        img: naomiImg,
-        year: '3rd',
-        college: 'Eighth',
-        major: 'Math-CS',
-        why: 'I wanted to make friends with other math people!',
-        hobbies: 'Running, art/sewing, thrifting, and rollerblading',
-        favoriteFields: 'Graph theory',
-        favoriteClasses: 'Math 100B, Math 154',
     }
 }
 
