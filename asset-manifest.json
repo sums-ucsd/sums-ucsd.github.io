@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.49236c79.css",
+    "main.js": "/static/js/main.bde411c1.js",
+    "static/js/453.862bdfe1.chunk.js": "/static/js/453.862bdfe1.chunk.js",
+    "static/media/SahithEdula.png": "/static/media/SahithEdula.cb1aa72191c1b265c8d0.png",
+    "static/media/HarryLonsdale.png": "/static/media/HarryLonsdale.1d4b382cf20096665a67.png",
+    "static/media/EmilyHawksworth.jpeg": "/static/media/EmilyHawksworth.dc24cf57eea5550039c9.jpeg",
+    "static/media/integration-bee-crowd.jpg": "/static/media/integration-bee-crowd.3343ecf7b10e85579384.jpg",
+    "static/media/integration-bee.jpg": "/static/media/integration-bee.0965a2c38a863d4716ea.jpg",
+    "static/media/latex-workshop.jpg": "/static/media/latex-workshop.de56b1856662c0554df8.jpg",
+    "static/media/KaylaTorresRodriguez.jpeg": "/static/media/KaylaTorresRodriguez.3279667e683681b708d7.jpeg",
+    "static/media/research-workshop.jpg": "/static/media/research-workshop.d8729bc7dacff9cf822f.jpg",
+    "static/media/NaomiMetzler.jpg": "/static/media/NaomiMetzler.fa7ce184e9a4f1ea3728.jpg",
+    "static/media/pi-day.jpg": "/static/media/pi-day.ed2e4d23ce7d350605a3.jpg",
+    "static/media/board-game-night.jpg": "/static/media/board-game-night.fe5f8895198f22385809.jpg",
+    "static/media/sums_board.jpg": "/static/media/sums_board.2a39f91f7550979b1b03.jpg",
+    "static/media/MattTokunaga.jpg": "/static/media/MattTokunaga.84cdf52793cb095751fa.jpg",
+    "static/media/LalehBoursalian.jpeg": "/static/media/LalehBoursalian.69d63851f4030ed9cb8e.jpeg",
+    "static/media/puzzles.jpg": "/static/media/puzzles.5965a68df825765c0976.jpg",
+    "static/media/RyanBatubara.jpeg": "/static/media/RyanBatubara.6cf620eec25ff0ebc302.jpeg",
+    "static/media/ThomasMadden.jpg": "/static/media/ThomasMadden.2998533aced30606bcff.jpg",
+    "static/media/MohitDutta.jpg": "/static/media/MohitDutta.3ab6c1bd64384372ca5d.jpg",
+    "static/media/chess.jpg": "/static/media/chess.1b89b768b8014e053543.jpg",
+    "static/media/main_logo.png": "/static/media/main_logo.08da1a9505a5e619ce25.png",
+    "index.html": "/index.html",
+    "main.49236c79.css.map": "/static/css/main.49236c79.css.map",
+    "main.bde411c1.js.map": "/static/js/main.bde411c1.js.map",
+    "453.862bdfe1.chunk.js.map": "/static/js/453.862bdfe1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49236c79.css",
+    "static/js/main.bde411c1.js"
+  ]
+}
