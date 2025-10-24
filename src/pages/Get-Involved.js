@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/pages/get_involved.css";
-import board_img from "../assets/images/sums_board.jpg";
 
 function GetInvolved() {
   return (
     <div className="get-involved">
       {/* image: self-closing tag with src prop and alt text */}
-      <img src={board_img} alt="SUMS board members" className="get-involved-image" />
+      <img src="assets/images/sums_board.jpg" alt="SUMS board members" className="get-involved-image" />
 
       <div className="get-involved-content">
         <h2>Volunteering</h2>

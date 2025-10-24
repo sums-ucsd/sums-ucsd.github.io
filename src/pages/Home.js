@@ -1,11 +1,10 @@
 import React from "react";
-import mainLogo from "../assets/images/main_logo.png";
 
 function Home() {
   return (
     <>
       <div>
-        <img src={mainLogo} alt="SUMS logo" className="main-image" />
+        <img src="/assets/images/main_logo.png" alt="SUMS logo" className="main-image" />
       </div>
 
       <div className="button-container">

@@ -1,19 +1,8 @@
-import emilyImg from "../assets/images/profiles/EmilyHawksworth.jpeg";
-import harryImg from "../assets/images/profiles/HarryLonsdale.png";
-import kaylaImg from "../assets/images/profiles/KaylaTorresRodriguez.jpeg";
-import lalehImg from "../assets/images/profiles/LalehBoursalian.jpeg";
-import mattImg from "../assets/images/profiles/MattTokunaga.jpg";
-import mohitImg from "../assets/images/profiles/MohitDutta.jpg";
-import naomiImg from "../assets/images/profiles/NaomiMetzler.jpg";
-import ryanImg from "../assets/images/profiles/RyanBatubara.jpeg";
-import sahithImg from "../assets/images/profiles/SahithEdula.png";
-import thomasImg from "../assets/images/profiles/ThomasMadden.jpg";
-
 export const profiles = {
     'harry-lonsdale': {
         name: 'Harry Lonsdale',
         title: 'President',
-        img: harryImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/HarryLonsdale.png",
         year: '4th',
         college: 'Seventh',
         major: 'Math-CS',
@@ -25,7 +14,7 @@ export const profiles = {
     'ryan-batubara': {
         name: 'Ryan Yeshaya Batubara',
         title: 'VP Internal',
-        img: ryanImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/RyanBatubara.jpeg",
         year: '4th',
         college: 'Revelle',
         major: 'Math-CS & Data Science',
@@ -37,7 +26,7 @@ export const profiles = {
     'emily-hawksworth': {
         name: 'Emily Hawksworth',
         title: 'VP External',
-        img: emilyImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/EmilyHawksworth.jpeg",
         year: '4th',
         college: 'Muir',
         major: 'Mathematics - Probability and Statistics',
@@ -49,7 +38,7 @@ export const profiles = {
     'mohit-dutta': {
         name: 'Mohit Dutta',
         title: 'Secretary',
-        img: mohitImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/MohitDutta.jpg",
         year: '3rd',
         college: 'Seventh',
         major: 'Math-CS, Economics',
@@ -61,7 +50,7 @@ export const profiles = {
     'sahith-edula': {
         name: 'Sahith Edula',
         title: 'Treasurer',
-        img: sahithImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/SahithEdula.png",
         year: '3rd',
         college: 'Muir',
         major: 'Math and Economics (double major)',
@@ -73,7 +62,7 @@ export const profiles = {
     'thomas-madden': {
         name: 'Thomas Madden',
         title: 'Events and Workshops Chair',
-        img: thomasImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/ThomasMadden.jpg",
         year: '3rd',
         college: 'Seventh',
         major: 'Mathematics',
@@ -85,7 +74,7 @@ export const profiles = {
     'kayla-rodriguez': {
         name: 'Kayla Rodriguez',
         title: 'Publicity Chair',
-        img: kaylaImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/KaylaTorresRodriguez.jpeg",
         year: '3rd',
         college: 'Sixth',
         major: 'Applied Mathematics',
@@ -96,22 +85,10 @@ export const profiles = {
         favoriteFields: 'Differential equations and linear algebra',
         favoriteClasses: 'Math 102'
     },
-    'matt-tokunaga': {
-        name: 'Matt Tokunaga',
-        title: 'Historian',
-        img: mattImg,
-        year: '4th',
-        college: 'Revelle',
-        major: 'Pure math + Data Science',
-        why: 'To make friends :D😉',
-        hobbies: 'Watching baseball and basketball, hoopin, video games',
-        favoriteFields: 'Functional analysis',
-        favoriteClasses: 'Math 140B, Math 100C'
-    },
     'naomi-metzler': {
         name: 'Naomi Metzler',
         title: 'Tech Chair',
-        img: naomiImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/NaomiMetzler.jpg",
         year: '3rd',
         college: 'Eighth',
         major: 'Math-CS',
@@ -120,10 +97,22 @@ export const profiles = {
         favoriteFields: 'Graph theory',
         favoriteClasses: 'Math 100B, Math 154',
     },
+    'matt-tokunaga': {
+        name: 'Matt Tokunaga',
+        title: 'Historian',
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/MattTokunaga.jpg",
+        year: '4th',
+        college: 'Revelle',
+        major: 'Pure math + Data Science',
+        why: 'To make friends :D😉',
+        hobbies: 'Watching baseball and basketball, hoopin, video games',
+        favoriteFields: 'Functional analysis',
+        favoriteClasses: 'Math 140B, Math 100C'
+    },
     'laleh-boursalian': {
         name: 'Laleh Boursalian',
         title: 'Media Chair',
-        img: lalehImg,
+        img: process.env.PUBLIC_URL + "/assets/images/profiles/LalehBoursalian.jpeg",
         year: '4th',
         college: 'Warren',
         major: 'Applied Mathematics',

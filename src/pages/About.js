@@ -1,14 +1,14 @@
+import React from "react";
 
 function About() {
   return (
     <>
-
-      <div class="container">
-        <div class="get-involved-image">
-          <img src="apm.jpg" class="sums-people" />
+      <div className="container">
+        <div className="get-involved-image">
+          <img src="/assets/images/apm.jpg" className="sums-people" />
         </div>
 
-        <div class="get-involved-content">
+        <div className="get-involved-content">
           <h2>About Us</h2>
           SUMS stands for the Society of Undergraduate Mathematics Students and we are the largest undergrad math organization here at UCSD. We aim to provide helpful workshops for all types of math majors as well as a way for the math community to come together. Our board meetings are at 4PM in APM 6402 on Mondays. Our events are mainly held in AP&M.
 

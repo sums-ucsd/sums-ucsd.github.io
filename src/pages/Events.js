@@ -1,26 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../styles/pages/events.css";
-import boardGameNight from "../assets/images/events/board-game-night.jpg";
-import chess from "../assets/images/events/chess.jpg";
-import integrationBeeCrowd from "../assets/images/events/integration-bee-crowd.jpg";
-import integrationBee from "../assets/images/events/integration-bee.jpg";
-import latexWorkshop from "../assets/images/events/latex-workshop.jpg";
-import piDay from "../assets/images/events/pi-day.jpg";
-import puzzles from "../assets/images/events/puzzles.jpg";
-import researchWorkshop from "../assets/images/events/research-workshop.jpg";
 
 function Events() {
   const [slideIndex, setSlideIndex] = useState(0);
 
   const slides = [
-    { src: chess, text: "chess algorithms" },
-    { src: boardGameNight, text: "board game night" },
-    { src: integrationBeeCrowd, text: "integration bee" },
-    { src: integrationBee, text: "integration bee" },
-    { src: latexWorkshop, text: "LaTeX workshop" },
-    { src: piDay, text: "pi day jeopardy" },
-    { src: puzzles, text: "puzzle lightning talk" },
-    { src: researchWorkshop, text: "research opportunities workshop" },
+    { src: "/assets/images/events/chess.jpg", text: "chess algorithms" },
+    { src: "/assets/images/events/board-game-night.jpg", text: "board game night" },
+    { src: "/assets/images/events/integration-bee-crowd.jpg", text: "integration bee" },
+    { src: "/assets/images/events/integration-bee.jpg", text: "integration bee" },
+    { src: "/assets/images/events/latex-workshop.jpg", text: "LaTeX workshop" },
+    { src: "/assets/images/events/pi-day.jpg", text: "pi day jeopardy" },
+    { src: "/assets/images/events/puzzles.jpg", text: "puzzle lightning talk" },
+    { src: "/assets/images/events/research-workshop.jpg", text: "research opportunities workshop" },
   ];
 
   const nextSlide = () => {

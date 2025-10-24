@@ -1,11 +1,10 @@
 import React from "react";
-import main_logo from "../assets/images/main_logo.png";
 
 function Header() {
   return (
     <ul className="menu" style={{ marginTop: "10px" }}>
       <a href="/" className="logo">
-        <img src={main_logo} alt="SUMS logo" width="10%" />
+        <img src="/assets/images/main_logo.png" alt="SUMS logo" width="10%" />
       </a>
 
       <li className="dropdown">
