@@ -2,7 +2,7 @@ export const profiles = {
     'harry-lonsdale': {
         name: 'Harry Lonsdale',
         title: 'President',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/HarryLonsdale.png",
+        img: "/assets/images/profiles/HarryLonsdale.png",
         year: '4th',
         college: 'Seventh',
         major: 'Math-CS',
@@ -14,7 +14,7 @@ export const profiles = {
     'ryan-batubara': {
         name: 'Ryan Yeshaya Batubara',
         title: 'VP Internal',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/RyanBatubara.jpeg",
+        img: "/assets/images/profiles/RyanBatubara.jpeg",
         year: '4th',
         college: 'Revelle',
         major: 'Math-CS & Data Science',
@@ -26,7 +26,7 @@ export const profiles = {
     'emily-hawksworth': {
         name: 'Emily Hawksworth',
         title: 'VP External',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/EmilyHawksworth.jpeg",
+        img: "/assets/images/profiles/EmilyHawksworth.jpeg",
         year: '4th',
         college: 'Muir',
         major: 'Mathematics - Probability and Statistics',
@@ -38,7 +38,7 @@ export const profiles = {
     'mohit-dutta': {
         name: 'Mohit Dutta',
         title: 'Secretary',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/MohitDutta.jpg",
+        img: "/assets/images/profiles/MohitDutta.jpg",
         year: '3rd',
         college: 'Seventh',
         major: 'Math-CS, Economics',
@@ -50,7 +50,7 @@ export const profiles = {
     'sahith-edula': {
         name: 'Sahith Edula',
         title: 'Treasurer',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/SahithEdula.png",
+        img: "/assets/images/profiles/SahithEdula.png",
         year: '3rd',
         college: 'Muir',
         major: 'Math and Economics (double major)',
@@ -62,7 +62,7 @@ export const profiles = {
     'thomas-madden': {
         name: 'Thomas Madden',
         title: 'Events and Workshops Chair',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/ThomasMadden.jpg",
+        img: "/assets/images/profiles/ThomasMadden.jpg",
         year: '3rd',
         college: 'Seventh',
         major: 'Mathematics',
@@ -74,7 +74,7 @@ export const profiles = {
     'kayla-rodriguez': {
         name: 'Kayla Rodriguez',
         title: 'Publicity Chair',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/KaylaTorresRodriguez.jpeg",
+        img: "/assets/images/profiles/KaylaTorresRodriguez.jpeg",
         year: '3rd',
         college: 'Sixth',
         major: 'Applied Mathematics',
@@ -88,7 +88,7 @@ export const profiles = {
     'naomi-metzler': {
         name: 'Naomi Metzler',
         title: 'Tech Chair',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/NaomiMetzler.jpg",
+        img: "/assets/images/profiles/NaomiMetzler.jpg",
         year: '3rd',
         college: 'Eighth',
         major: 'Math-CS',
@@ -100,7 +100,7 @@ export const profiles = {
     'matt-tokunaga': {
         name: 'Matt Tokunaga',
         title: 'Historian',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/MattTokunaga.jpg",
+        img: "/assets/images/profiles/MattTokunaga.jpg",
         year: '4th',
         college: 'Revelle',
         major: 'Pure math + Data Science',
@@ -112,7 +112,7 @@ export const profiles = {
     'laleh-boursalian': {
         name: 'Laleh Boursalian',
         title: 'Media Chair',
-        img: process.env.PUBLIC_URL + "/assets/images/profiles/LalehBoursalian.jpeg",
+        img: "/assets/images/profiles/LalehBoursalian.jpeg",
         year: '4th',
         college: 'Warren',
         major: 'Applied Mathematics',
