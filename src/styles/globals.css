@@ -24,6 +24,10 @@
     -webkit-font-smoothing: antialiased;
   }
   
+  #root {
+    padding-top: 0;
+  }
+  
   /* container utility to center content */
   .container {
     max-width: var(--page-max-width);
@@ -50,24 +54,7 @@
   /* small utility */
   .text-muted { color: var(--text-muted); font-size: 0.95rem; }
   
-  /* header/nav (moved from App.css) */
-  .header {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px rgba(0,0,0,0.06);
-    position: fixed;
-    width: 100%;
-    z-index: 40;
-    top: 0;
-  }
-  .header .container { display:flex; align-items:center; justify-content:space-between; gap:16px; padding: 12px 16px; }
-  .header .logo { font-weight:700; font-size:1.25rem; text-decoration:none; color: #111; }
-  /* keep previous header menu styles but scoped under .header to avoid global ul/li collisions */
-  .header nav ul { list-style:none; margin:0; padding:0; display:flex; gap:4px; align-items:center; }
-  .header nav a { padding: 8px 12px; color: #111; text-decoration:none; border-radius:6px; }
-  .header nav a:hover { background:#f4f4f4; color: var(--accent); }
-  
   /* small responsive helpers */
   @media (max-width: 900px){
     .container { padding-left: 12px; padding-right: 12px; }
   }
-  

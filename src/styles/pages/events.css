@@ -9,10 +9,6 @@
     display: block;
   }
   
-  img {
-    vertical-align: middle;
-  }
-  
   /* Slideshow container */
   .slideshow-container {
     max-width: 600px;
@@ -86,7 +82,7 @@
   }
   
   /* On smaller screens, adjust text and arrows */
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     .prev,
     .next,
     .text {
