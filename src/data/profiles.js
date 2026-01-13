@@ -1,16 +1,16 @@
 export const profiles = {
-    'harry-lonsdale': {
-        name: 'Harry Lonsdale',
+    'emily-hawksworth': {
+        name: 'Emily Hawksworth',
         title: 'President',
-        img: "/assets/images/profiles/HarryLonsdale.png",
+        img: "/assets/images/profiles/EmilyHawksworth.jpeg",
         year: '4th',
-        college: 'Seventh',
-        major: 'Math-CS',
-        why: 'Free food. Just kidding, I wanted to connect with other math students and build a stronger community among undergrads in the department (while eating free food).',
-        hobbies: 'running, triathlon, watching English soccer, coding',
-        favoriteFields: 'algebra, graph theory',
-        favoriteClasses: 'Math 154'
-    },
+        college: 'Muir',
+        major: 'Mathematics - Probability and Statistics',
+        why: 'To meet other math students and get involved!',
+        hobbies: 'Hiking and golfing',
+        favoriteFields: 'Statistics',
+        favoriteClasses: 'Math 109, 181A & 181B'
+    },    
     'ryan-batubara': {
         name: 'Ryan Yeshaya Batubara',
         title: 'VP Internal',
@@ -23,17 +23,17 @@ export const profiles = {
         favoriteFields: 'Recreational math, graph theory.',
         favoriteClasses: 'Math 87'
     },
-    'emily-hawksworth': {
-        name: 'Emily Hawksworth',
+    'thomas-madden': {
+        name: 'Thomas Madden',
         title: 'VP External',
-        img: "/assets/images/profiles/EmilyHawksworth.jpeg",
-        year: '4th',
-        college: 'Muir',
-        major: 'Mathematics - Probability and Statistics',
-        why: 'To meet other math students and get involved!',
-        hobbies: 'Hiking and golfing',
-        favoriteFields: 'Statistics',
-        favoriteClasses: 'Math 109, 181A & 181B'
+        img: "/assets/images/profiles/ThomasMadden.jpg",
+        year: '3rd',
+        college: 'Seventh',
+        major: 'Mathematics',
+        why: 'I joined SUMS to be apart of a community of students interested in advanced mathematics, and to have the opportunity to contribute to the creation/planning of math-related competitions and workshops.',
+        hobbies: 'basketball, drawing, reading',
+        favoriteFields: 'Probability, Statistics, and Number Theory',
+        favoriteClasses: 'Math 140A, Math 180A, Math 105'
     },
     'mohit-dutta': {
         name: 'Mohit Dutta',
@@ -58,18 +58,6 @@ export const profiles = {
         hobbies: 'Reading, learning languages, sudoku puzzles',
         favoriteFields: 'Probability and game theory',
         favoriteClasses: 'Math 140, Math 280'
-    },
-    'thomas-madden': {
-        name: 'Thomas Madden',
-        title: 'Events and Workshops Chair',
-        img: "/assets/images/profiles/ThomasMadden.jpg",
-        year: '3rd',
-        college: 'Seventh',
-        major: 'Mathematics',
-        why: 'I joined SUMS to be apart of a community of students interested in advanced mathematics, and to have the opportunity to contribute to the creation/planning of math-related competitions and workshops.',
-        hobbies: 'basketball, drawing, reading',
-        favoriteFields: 'Probability, Statistics, and Number Theory',
-        favoriteClasses: 'Math 140A, Math 180A, Math 105'
     },
     'kayla-rodriguez': {
         name: 'Kayla Rodriguez',
@@ -121,6 +109,32 @@ export const profiles = {
         hobbies: 'cooking, reading, playing The Sims 4 and Minecraft',
         favoriteFields: 'Calculus',
         favoriteClasses: 'Math 142A, Math 170A'
+    },
+        'kenric-hoang': {
+        name: 'Kenric Hoang',
+        title: 'Events Chair',
+        img: "/assets/images/profiles/KenricHoang.jpeg",
+        year: '1st',
+        college: 'Seventh',
+        major: 'Applied Mathematics',
+        why:
+          'I was interested in math and had never been in a school with a math club, so I popped in and decided to stay.',
+        hobbies: 'Listening to music, crochet, playing electric guitar',
+        favoriteFields: 'Combinatorics, cryptography ',
+        favoriteClasses: 'Math 20E, Math 109'
+    },
+        'huy-vuong': {
+        name: 'Huy Vuong',
+        title: 'Workshops Chair',
+        img: "/assets/images/profiles/HuyVuong.jpg",
+        year: '1st',
+        college: 'Muir',
+        major: 'Undeclared - Physical Science',
+        why:
+          'I really like Math and SUMS is really cool and mathy.',
+        hobbies: 'Music production, video games, poker',
+        favoriteFields: 'Differential equations and linear algebra',
+        favoriteClasses: 'Math 31AH'
     }
 }
 
