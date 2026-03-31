@@ -1,0 +1,60 @@
+/* globals.css — site-wide settings */
+:root{
+    --page-max-width: 1200px;
+    --gap: 1.25rem;
+    --card-radius: 8px;
+    --card-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    --accent: #1859be;
+    --text-muted: #666;
+    --body-bg: whitesmoke;
+    --body-font: "Jost", "Open Sans", sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  
+  * { box-sizing: border-box; }
+  html,body { height: 100%; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--body-bg);
+    font-family: var(--body-font);
+    color: #111;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  #root {
+    padding-top: 0;
+  }
+  
+  /* container utility to center content */
+  .container {
+    max-width: var(--page-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  /* buttons */
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color .2s ease;
+    text-align: center;
+  }
+  .button:hover { background-color: var(--accent); color: #fff; }
+  
+  /* small utility */
+  .text-muted { color: var(--text-muted); font-size: 0.95rem; }
+  
+  /* small responsive helpers */
+  @media (max-width: 900px){
+    .container { padding-left: 12px; padding-right: 12px; }
+  }
