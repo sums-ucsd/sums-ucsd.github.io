@@ -1,19 +1,7 @@
-export const profiles = {
-    'emily-hawksworth': {
-        name: 'Emily Hawksworth',
-        title: 'President',
-        img: "/assets/images/profiles/EmilyHawksworth.jpeg",
-        year: '4th',
-        college: 'Muir',
-        major: 'Mathematics - Probability and Statistics',
-        why: 'To meet other math students and get involved!',
-        hobbies: 'Hiking and golfing',
-        favoriteFields: 'Statistics',
-        favoriteClasses: 'Math 109, 181A & 181B'
-    },    
+export const profiles = {  
     'ryan-batubara': {
         name: 'Ryan Yeshaya Batubara',
-        title: 'VP Internal',
+        title: 'President',
         img: "/assets/images/profiles/RyanBatubara.jpeg",
         year: '4th',
         college: 'Revelle',
@@ -37,7 +25,7 @@ export const profiles = {
     },
     'mohit-dutta': {
         name: 'Mohit Dutta',
-        title: 'Secretary',
+        title: 'VP Internal',
         img: "/assets/images/profiles/MohitDutta.jpg",
         year: '3rd',
         college: 'Seventh',
@@ -82,24 +70,12 @@ export const profiles = {
         major: 'Math-CS',
         why: 'I wanted to make friends with other math people!',
         hobbies: 'Running, art/sewing, thrifting, and rollerblading',
-        favoriteFields: 'Graph theory',
+        favoriteFields: 'Combinatorics, graph theory, and algebra',
         favoriteClasses: 'Math 100B, Math 154',
-    },
-    'matt-tokunaga': {
-        name: 'Matt Tokunaga',
-        title: 'Historian',
-        img: "/assets/images/profiles/MattTokunaga.jpg",
-        year: '4th',
-        college: 'Revelle',
-        major: 'Pure math + Data Science',
-        why: 'To make friends :D😉',
-        hobbies: 'Watching baseball and basketball, hoopin, video games',
-        favoriteFields: 'Functional analysis',
-        favoriteClasses: 'Math 140B, Math 100C'
     },
     'laleh-boursalian': {
         name: 'Laleh Boursalian',
-        title: 'Media Chair',
+        title: 'Historian',
         img: "/assets/images/profiles/LalehBoursalian.jpeg",
         year: '4th',
         college: 'Warren',
@@ -135,6 +111,30 @@ export const profiles = {
         hobbies: 'Music production, video games, poker',
         favoriteFields: 'Differential equations and linear algebra',
         favoriteClasses: 'Math 31AH'
+    },
+        'markus-obata': {
+        name: 'Markus Obata',
+        title: 'Secretary',
+        img: "/assets/images/profiles/MarkusObata.jpg",
+        year: '4th',
+        college: 'Muir',
+        major: 'Applied Mathematics',
+        why: 'I joined SUMS because I wanted to connect with people that cared about math just as much as I did.',
+        hobbies: 'I really like to cook, go on hikes, and dive whenever I can',
+        favoriteFields: 'Linear Algebra and Statistics',
+        favoriteClasses: 'Math 185, Math 216A'
+    },
+        'kendall-petroni': {
+        name: 'Kendall Petroni',
+        title: 'Media Chair',
+        img: "/assets/images/profiles/KendallPetroni.jpeg",
+        year: '1st',
+        college: 'Eighth',
+        major: 'Applied Mathematics',
+        why: 'I wanted to join a community that had a similar interest in math and STEM in general. I ended up switching my major from physics to applied math as a result of a deepening appreciation of math, partially thanks to this club.',
+        hobbies: 'Video games, coding, and drawing art',
+        favoriteFields: 'Calculus, graph theory',
+        favoriteClasses: 'Math 20B & 20C'
     }
 }
 
