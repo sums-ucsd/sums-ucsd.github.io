@@ -9,7 +9,7 @@ function Home() {
 
       <div className="button-container">
         <a
-          href="https://forms.gle/NTt7DFMNYkBJQx4y5"
+          href="https://forms.gle/9vU5qyGchCKLmSjt8"
           className="button-main"
           target="_blank"
           rel="noopener noreferrer"
@@ -17,7 +17,7 @@ function Home() {
           meeting sign-in
         </a>
         <a
-          href="https://forms.gle/zRqwfVnr4QXME5Xk6"
+          href="https://forms.gle/thaqKh8B7HkZRyRv9"
           className="button-main"
           target="_blank"
           rel="noopener noreferrer"
@@ -25,7 +25,7 @@ function Home() {
           event sign-in
         </a>
         <a
-          href="https://forms.gle/A1n3Bi3x1rN3pCHc7"
+          href="https://forms.gle/miUYRyBEG5omHgA56"
           className="button-main"
           target="_blank"
           rel="noopener noreferrer"

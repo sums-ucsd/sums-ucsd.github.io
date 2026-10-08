@@ -83,7 +83,7 @@ function Events() {
           the publicity and securing a room, you just need to show up! If you
           would like to give a talk, please fill out the form{" "}
           <a
-            href="https://docs.google.com/forms/d/1zM4OpeyKMClutnLVL3X9uJoxLxIkLf_o0szbLuSXdOk/viewform?edit_requested=true"
+            href="https://forms.gle/Dk12FWVxDaHiJZKC7"
             target="_blank"
             rel="noopener noreferrer"
           >
