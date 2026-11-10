@@ -23,6 +23,7 @@ function ProfilePage() {
         {profile.title && <p><strong>Role:</strong> {profile.title}</p>}
         {profile.year && <p><strong>Year:</strong> {profile.year}</p>}
         {profile.major && <p><strong>Major:</strong> {profile.major}</p>}
+        {profile.minor && <p><strong>Minor:</strong> {profile.minor}</p>}
         {profile.bio && <p>{profile.bio}</p>}
         {profile.hobbies && <p><strong>Hobbies:</strong> {profile.hobbies}</p>}
         {profile.favoriteFields && (
